@@ -1,9 +1,10 @@
+# gRPC Server Example
 
+This is a simple example of how to start a gRPC server using Node.js and the `@grpc/grpc-js` library.
 
+## Code Example
 
-
-#gRPC server can be started with just this code
-
+```javascript
 import { Server, ServerCredentials } from "@grpc/grpc-js";
 
 const startGRPCServer = () => {
